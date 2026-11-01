@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; media-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="referrer" content="no-referrer" />
+    <title>Secret Santa: free, private gift exchange</title>
+    <meta
+      name="description"
+      content="Draw names for Secret Santa in seconds. Private links for everyone, households and exclusions, wishlists, sealed end-to-end encrypted mode, party mode and printable cards. No accounts, no servers, no tracking."
+    />
+    <meta name="theme-color" content="#b3122b" />
+    <meta name="color-scheme" content="light dark" />
+    <meta property="og:title" content="Secret Santa, sorted." />
+    <meta property="og:description" content="Free, private Secret Santa draws with a personal link for everyone. No accounts, no servers, no snooping." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+    <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="css/app.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="boot">
+        <span class="boot-gift" aria-hidden="true">🎁</span>
+        <noscript>
+          <p class="boot-msg">Secret Santa needs JavaScript to draw names and build your private links. Please enable it and reload.</p>
+        </noscript>
+      </div>
+    </div>
+  </body>
+</html>

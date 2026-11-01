@@ -1,0 +1,19 @@
+{
+  "name": "Secret Santa",
+  "short_name": "Secret Santa",
+  "description": "Free, private Secret Santa draws with a personal link for everyone. No accounts, no servers, no snooping.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fbf6ef",
+  "theme_color": "#b3122b",
+  "categories": ["lifestyle", "social", "utilities"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
