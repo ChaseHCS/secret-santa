@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7263d"/>
+      <stop offset="1" stop-color="#9e0f25"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="400" cy="104" r="10" fill="#fff" opacity=".7"/>
+  <circle cx="104" cy="140" r="7" fill="#fff" opacity=".55"/>
+  <circle cx="430" cy="300" r="6" fill="#fff" opacity=".5"/>
+  <rect x="128" y="262" width="256" height="158" rx="18" fill="#fff"/>
+  <rect x="128" y="276" width="256" height="16" fill="#000" opacity=".08"/>
+  <rect x="106" y="206" width="300" height="70" rx="16" fill="#fff"/>
+  <rect x="232" y="206" width="48" height="214" fill="#f2c14e"/>
+  <path d="M256 204c-34-62-112-74-104-24 5 32 62 32 104 24z" fill="#f2c14e"/>
+  <path d="M256 204c34-62 112-74 104-24-5 32-62 32-104 24z" fill="#f2c14e"/>
+  <path d="M256 204c-28-40-74-50-72-26 2 18 42 26 72 26z" fill="#d9a520"/>
+  <path d="M256 204c28-40 74-50 72-26-2 18-42 26-72 26z" fill="#d9a520"/>
+  <circle cx="256" cy="204" r="22" fill="#e3ad2f"/>
+</svg>
